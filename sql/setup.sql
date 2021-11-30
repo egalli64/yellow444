@@ -1,7 +1,6 @@
 drop user if exists yellow;
 drop schema if exists yellow;
 
-
 create user yellow identified by 'password';
 create schema yellow;
 
