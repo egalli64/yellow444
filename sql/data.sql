@@ -1,12 +1,4 @@
-SELECT * FROM yellow.materiali;
 
-delete from materiali where Materiale_id between 6 and 17;
-insert into materiali (tipo) values ('truciolato');
-
-<<<<<<< HEAD
-update materiali set materiale_id = 5 where tipo = 'truciolato';
-=======
--- cleanup
 Drop table if exists domanda_offerta;
 Drop table if exists aziende;
 Drop table if exists materiali;
@@ -66,4 +58,3 @@ commit;
 --
 
 --
->>>>>>> branch 'master' of https://github.com/egalli64/yellow444.git
