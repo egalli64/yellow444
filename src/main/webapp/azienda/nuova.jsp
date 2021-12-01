@@ -8,6 +8,6 @@
 </head>
 <body>
 <h1> "registrazione effettuata con successo!"</h1>
-<p> "Benvenuto"
+<p> "Benvenuto!"
 </body>
 </html>
