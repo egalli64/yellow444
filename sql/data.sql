@@ -33,7 +33,7 @@ create table materiali(
 
 );
 
-insert into materiali (tipo) values ('legno'), (' vetro');
+insert into materiali (tipo) values ('legno'), ('vetro'), ('ceramica'), ('cartone'), ('truciolato');
 
 commit;
 
