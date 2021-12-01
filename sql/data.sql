@@ -51,7 +51,12 @@ create table domanda_offerta(
 	 foreign key(materiale_id) references materiali(materiale_id)
  );
 
-insert into domanda_offerta (azienda_id, materiale_id, quantità, scarto) values (1,2 ,2, true),(2,1,3,false);
+insert into domanda_offerta (azienda_id, materiale_id, quantità, scarto) values
+	(1,2 ,2, true),
+	(2,1,3,false), 
+	(3,4,2, true), 
+	(1,5,3, false),
+	(1,2,6,true);
 	
 
 commit;
