@@ -53,8 +53,8 @@ insert into domanda_offerta (azienda_id, materiale_id, quantità, scarto) values
 	(1,2 ,2, true),
 	(2,1,3,false), 
 	(3,4,2, true), 
-	(1,5,3, false),
-	(1,2,6,true);
+	(1,5,3, false);
+	
 	
 
 commit;
