@@ -8,12 +8,18 @@
 </head>
 <body>
     <h1>The Yellow Project</h1>
- <form action="/yellow/azienda/nuova" method="post">
-  <label for="nome">nome azienda:</label>
+    <div id= 'uno'>
+    <h2>Benvenuto in "The <span>yellow</span> project!"</h2>
+    <p class= 'testo'> Gentile utente, per accedere alla tua area riservata <br> 
+    e partecipare al nostro programma di riciclaggio,<br>
+    completa il form sottostante. </p> <br> <br> <br>
+ <form id= 'form' action="/yellow/azienda/nuova" method="post">
+  <label class= 'testoform' for="nome">Azienda:</label>
   <input type="text" id="nome" name="nome"><br><br>
-  <label for= "password"> password </label> 
-  <input type="password" name="password">
-  <input type="submit" value="Clicca qui!">
+  <label class= 'testoform' for= "password"> Password:</label> 
+  <input type="password" name="password"> <br>
+  <input id= 'bottone' type="submit" value="Clicca qui!">
 </form>
+</div>
 </body>
 </html>

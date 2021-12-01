@@ -4,10 +4,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Registrazione</title>
+<link rel="stylesheet" type="text/css" href="/yellow/css/basictwo.css">
 </head>
 <body>
-<h1> "registrazione effettuata con successo!"</h1>
-<p> "Benvenuto!"
+<div>
+<h1> Registrazione effettuata con successo!</h1>
+<p> Benvenuto <span> ${nome} </span>, il tuo contributo è fondamentale!</p>
+</div>
 </body>
 </html>

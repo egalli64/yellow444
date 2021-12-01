@@ -18,7 +18,9 @@ public class NuovaAzienda extends HttpServlet {
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String nome = request.getParameter("nome");
+		request.setAttribute("nome", nome);
 		String password = request.getParameter("password");
+		request.setAttribute("password", password);
 		
 		request.getRequestDispatcher("nuova.jsp").forward(request, response);
 	} 
