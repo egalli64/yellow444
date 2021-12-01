@@ -1,7 +1,4 @@
 
-use yellow;
-
--- cleanup
 Drop table if exists domanda_offerta;
 Drop table if exists aziende;
 Drop table if exists materiali;
@@ -20,7 +17,8 @@ create table aziende(
 	password varchar(10)
 );
 
-insert into aziende (nome, longitudine, latitudine, password) values ('Gino' , 0272, 9837 , 'huhu'), ('pino', 7483, 7266, 'snsjsb') ;
+insert into aziende (nome, longitudine, latitudine, password) values ('EPaper' , 44.330609, 10.712453 , 'Fuffy'), ('Vecchio', 44.229132,10.574866
+ , 'Roma') , ('Vetropro',41.543783,14.476636,'password'),('LegnoItaly', 40.499435, 15.893872, 'dicembre'),('D.U.C.', 40.516141,9.126294, 'sminchi');
 
 
 
@@ -35,7 +33,7 @@ create table materiali(
 
 );
 
-insert into materiali (tipo) values ('legno'), (' vetro');
+insert into materiali (tipo) values ('legno'), ('vetro'), ('ceramica'), ('cartone'), ('truciolato');
 
 commit;
 
