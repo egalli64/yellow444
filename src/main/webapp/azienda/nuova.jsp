@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<h1> "registrazione effettuata con successo!"</h1>
+<p> "Benvenuto"
 </body>
 </html>
