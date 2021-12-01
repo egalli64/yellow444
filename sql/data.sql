@@ -12,8 +12,8 @@ Drop table if exists materiali;
 create table aziende(
 	azienda_id integer primary key auto_increment,
  	nome varchar (30),
-	longitudine integer,
-	latitudine integer,
+	longitudine double,
+	latitudine double,
 	password varchar(10)
 );
 
