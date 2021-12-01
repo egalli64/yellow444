@@ -55,11 +55,6 @@ insert into domanda_offerta (azienda_id, materiale_id, quantità, scarto) values
 	(3, 2, 2, true), 
 	(4, 1, 3, false),
     (5, 5, 4, false);
-	
 
 commit;
 
---
---
-
---
