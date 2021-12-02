@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.2urr-aw8iVcMzJ2csIiwGwHaHa?pid=ImgDet&rs=1");
+}
+
+div {
+	padding-top: 30px;
+	margin: 30px;
+	background-color:   #ecffec;
+	border: 4px solid #008000;
+}
+
+#newform {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.tform {
+	color: #000000;
+	text-align: center
+}
+
+h1 {
+	color: #000000;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	color: #000000;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 30px;
+}
