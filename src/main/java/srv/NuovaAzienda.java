@@ -22,7 +22,7 @@ public class NuovaAzienda extends HttpServlet {
 		String password = request.getParameter("password");
 		request.setAttribute("password", password);
 		
-		request.getRequestDispatcher("nuova.jsp").forward(request, response);
+		request.getRequestDispatcher("funzionalità.jsp").forward(request, response);
 	} 
 
 }
