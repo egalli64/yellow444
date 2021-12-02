@@ -27,7 +27,7 @@ public class UtenteNuovo extends HttpServlet {
 		String materiale = request.getParameter("materiale");
 		request.setAttribute("materiale", materiale);
 		
-		request.getRequestDispatcher("nuovo.jsp").forward(request, response);
+		request.getRequestDispatcher("/yellow/azienda/funzionalità.jsp").forward(request, response);
 	}
 
 }
