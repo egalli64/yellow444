@@ -13,9 +13,9 @@
     <label class= "testoform" for="materiale">Materiale di scarto:</label>
      <input type="text" id="nome" name="materiale"><br><br>
      <label class= "testoform" for= "latitudine"> Latitudine:</label> 
-  <input type="password" name="latitudine"> <br>
+  <input type="text" name="latitudine"> <br>
   <label class= "testoform" for= "longitudine"> Longitudine:</label> 
-  <input type="password" name="longitudine"> <br>
+  <input type="text" name="longitudine"> <br>
   <label class= "testoform" for= "password"> Password:</label> 
   <input type="password" name="password"> <br>
    <label class= "testoform" for= "password"> Conferma password:</label> 
