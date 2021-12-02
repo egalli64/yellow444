@@ -14,8 +14,6 @@
 <form id= "newform" action="/yellow/utente/nuovo" method="post">
   <label class= "tform" for="nome">Azienda:</label>
   <input type="text"  name="nome"><br><br>
-    <label class= "tform" for="materiale">Materiale di scarto:</label>
-     <input type="text" id="nome" name="materiale"><br><br>
      <label class= "tform" for= "latitudine"> Latitudine:</label> 
   <input type="text" name="latitudine"> <br><br>
   <label class= "tform" for= "longitudine"> Longitudine:</label> 
