@@ -19,7 +19,7 @@
 
 	<div>
 		<form class='blu' action="/yellow/azienda/funzionalitàInserire"
-			method='get'>
+			method='post'>
 			<p>1) Inserisci il tipo di materiale che la tua azienda vuole
 				riciclare e la quantità disponibile:</p>
 			<br> <label class='ciao' for="nome">Azienda:</label> <input
@@ -41,7 +41,7 @@
 		<br>
 
 		<form class='blu' action="/yellow/azienda/funzionalitàAggiornare"
-			method='get'>
+			method='post'>
 			<p>2) Aggiorna la quantità di materiale di scarto che la tua
 				azienda ha a disposizione:</p>
 			<br> <label class='ciao' for="nome">Azienda:</label> <input
@@ -55,7 +55,7 @@
 		<br>
 
 		<form class='blu' action="/yellow/azienda/funzionalitàChiedere"
-			method='get'>
+			method='post'>
 			<p>3) Di che materiale hai bisogno? Trova l'azienda che può
 				fornirtelo:</p>
 			<br> <label class='ciao' for="materiale">Materiale:</label> <select
