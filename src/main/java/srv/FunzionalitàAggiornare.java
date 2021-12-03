@@ -15,12 +15,12 @@ public class FunzionalitàAggiornare extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException {
 		
-		String nome = request.getParameter("nome");
-		request.setAttribute("nome", nome);
+
 		String quantità = request.getParameter("quantità");
 		request.setAttribute("quantità", quantità);
 		
-		request.getRequestDispatcher("/funzionalità/aggiornare.jsp").forward(request, response);
+		request.setAttribute("messagetwo", "Gentile utente, il nostro database è stato agiornato in base ai dati forniti. Continua a scoprire nuove funzionalità!");
+		request.getRequestDispatcher("/azienda/funzionalità.jsp").forward(request, response);
 	
 	}
 

@@ -12,6 +12,12 @@ body {
 	text-align: center;
 }
 
+.mess {
+	color: #ff0000;
+	font-size: 20px;
+}
+
+
 div {
 	padding-top: 30px;
 	margin: 30px;
@@ -20,6 +26,7 @@ div {
 	padding-bottom: 30px;
 	text-align: center;
 }
+
 
 span {
 	color: #008000;

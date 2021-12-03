@@ -17,8 +17,8 @@ public class FunzionalitàChiedere extends HttpServlet {
 		String materiale = request.getParameter("materiale");
 		request.setAttribute("materiale", materiale);
 		
-		
-		request.getRequestDispatcher("/funzionalità/chiedere.jsp").forward(request, response);
+		request.setAttribute("messagethree", "Gentile utente, di seguito troverai le Aziende che mettono a disposizione il materiale da te richiesto! Continua a scoprire nuove funzionalità!");
+		request.getRequestDispatcher("/azienda/funzionalità.jsp").forward(request, response);
 	}
 
 }
