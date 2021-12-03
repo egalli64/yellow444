@@ -35,7 +35,7 @@
 				<option value='5'>truciolato</option>
 				<option value='2'>vetro</option>
 			</select> <br> <br> <label class='ciao' for="quantità">Quantità:</label>
-			<input type="text" name="quantità"><br>
+			<input type="text" name="quant"><br>
 			<br>
 
 			<button>Ok</button>

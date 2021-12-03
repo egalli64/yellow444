@@ -8,6 +8,14 @@ public class DomandaOfferta {
 	int materialeId;
 	
 
+	public DomandaOfferta(int quantità, boolean scarto, int aziendaId, int materialeId) {
+		super();
+		this.quantità = quantità;
+		this.scarto = scarto;
+		this.aziendaId = aziendaId;
+		this.materialeId = materialeId;
+	}
+
 	public int getAziendaId() {
 		return aziendaId;
 	}

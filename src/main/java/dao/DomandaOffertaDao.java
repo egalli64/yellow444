@@ -21,8 +21,10 @@ public class DomandaOffertaDao implements AutoCloseable {
 	}
 
 	public void create(DomandaOfferta dom) {
+		int azienda = 2;
+		
 		try (PreparedStatement stmt = conn.prepareStatement(INSERT_NEW)) {
-			stmt.setInt(1, dom.getAziendaId());
+			stmt.setInt(1, azienda);
 			stmt.setInt(2, dom.getMaterialeId());
 			stmt.setInt(3, dom.getQuantità());
 			stmt.setBoolean(4, dom.isScarto());
