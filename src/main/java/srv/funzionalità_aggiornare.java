@@ -20,7 +20,7 @@ public class funzionalità_aggiornare extends HttpServlet {
 		String quantità = request.getParameter("quantità");
 		request.setAttribute("quantità", quantità);
 		
-		request.getRequestDispatcher("").forward(request, response);
+		request.getRequestDispatcher("/funzionalità/aggiornare").forward(request, response);
 	
 	}
 

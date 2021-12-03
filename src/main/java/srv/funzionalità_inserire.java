@@ -21,7 +21,7 @@ public class funzionalità_inserire extends HttpServlet {
 		String quantità = request.getParameter("quantità");
 		request.setAttribute("quantità", quantità);
 		
-		request.getRequestDispatcher("").forward(request, response);
+		request.getRequestDispatcher("/funzionalità/inserire").forward(request, response);
 	}
 	
 }

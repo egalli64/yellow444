@@ -18,7 +18,7 @@ public class funzionalità_chiedere extends HttpServlet {
 		request.setAttribute("materiale", materiale);
 		
 		
-		request.getRequestDispatcher("").forward(request, response);
+		request.getRequestDispatcher("/funzionalità/chiedere").forward(request, response);
 	}
 
 }
