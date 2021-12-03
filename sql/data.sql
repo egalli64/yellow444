@@ -44,7 +44,7 @@ create table domanda_offerta(
 	quantità integer,
 	scarto boolean,
 
-     primary key(azienda_id, materiale_id),
+     -- primary key(azienda_id, materiale_id),
 	 foreign key(azienda_id) references aziende(azienda_id),
 	 foreign key(materiale_id) references materiali(materiale_id)
  );
