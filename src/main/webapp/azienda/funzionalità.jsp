@@ -18,40 +18,43 @@
 	</div>
 
 	<div>
+	<c:if test= "${message}"> <p class= 'mess'> ${message}</p></c:if>
+	<c:if test= "${messagetwo}"> <p class= 'mess'> ${messagetwo}</p></c:if>
+	<c:if test= "${messagethree}"> <p class= 'mess'> ${messagethree}</p></c:if>
 		<form class='blu' action="/yellow/azienda/funzionalitàInserire"
 			method='post'>
 			<p>1) Inserisci il tipo di materiale che la tua azienda vuole
 				riciclare e la quantità disponibile:</p>
-			<br> <label class='ciao' for="nome">Azienda:</label> <input
-				type="text" name="nome"><br> <br> <label
+			<br><label
 				class='ciao' for="materiale">Materiale:</label> <select
 				name="materiale">
 				<option value='none'>-</option>
-				<option value='cartone'>cartone</option>
-				<option value='ceramica'>ceramica</option>
-				<option value='legno'>legno</option>
-				<option value='truciolato'>truciolato</option>
-				<option value='vetro'>vetro</option>
+				<option value='4'>cartone</option>
+				<option value='3'>ceramica</option>
+				<option value='1'>legno</option>
+				<option value='5'>truciolato</option>
+				<option value='2'>vetro</option>
 			</select> <br> <br> <label class='ciao' for="quantità">Quantità:</label>
 			<input type="text" name="quantità"><br>
 			<br>
 
 			<button>Ok</button>
 		</form>
+	
 		<br>
 
 		<form class='blu' action="/yellow/azienda/funzionalitàAggiornare"
 			method='post'>
 			<p>2) Aggiorna la quantità di materiale di scarto che la tua
 				azienda ha a disposizione:</p>
-			<br> <label class='ciao' for="nome">Azienda:</label> <input
-				type="text" name="nome"><br> <br> <label
+			<br><label
 				class='ciao' for="quantità">Nuova quantità:</label> <input
 				type="text" name="quantità"><br>
 			<br>
 
 			<button>Ok</button>
 		</form>
+		
 		<br>
 
 		<form class='blu' action="/yellow/azienda/funzionalitàChiedere"
@@ -71,6 +74,7 @@
 			<button>Ok</button>
 			<br> <br>
 		</form>
+		
 	</div>
 
 
