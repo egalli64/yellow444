@@ -18,7 +18,7 @@
 	</div>
 
 	<div>
-		<form class='blu' action="yellow/azienda/funzionalità_inserire"
+		<form class='blu' action="/yellow/azienda/funzionalitàInserire"
 			method='get'>
 			<p>1) Inserisci il tipo di materiale che la tua azienda vuole
 				riciclare e la quantità disponibile:</p>
@@ -40,7 +40,7 @@
 		</form>
 		<br>
 
-		<form class='blu' action="yellow/azienda/funzionalità_aggiornare"
+		<form class='blu' action="/yellow/azienda/funzionalitàAggiornare"
 			method='get'>
 			<p>2) Aggiorna la quantità di materiale di scarto che la tua
 				azienda ha a disposizione:</p>
@@ -54,7 +54,7 @@
 		</form>
 		<br>
 
-		<form class='blu' action="yellow/azienda/funzionalità_chiedere"
+		<form class='blu' action="/yellow/azienda/funzionalitàChiedere"
 			method='get'>
 			<p>3) Di che materiale hai bisogno? Trova l'azienda che può
 				fornirtelo:</p>
