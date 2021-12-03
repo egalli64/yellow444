@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/azienda/funzionalità_aggiornare")
+@WebServlet("/azienda/funzionalitàAggiornare")
 public class FunzionalitàAggiornare extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
