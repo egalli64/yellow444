@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import dao.Materiale;
+
 @WebServlet("/azienda/funzionalità_inserire")
 public class FunzionalitàInserire extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -21,6 +23,13 @@ public class FunzionalitàInserire extends HttpServlet {
 		String quantità = request.getParameter("quantità");
 		request.setAttribute("quantità", quantità);
 		
+		
+		Materiale materiale = new Materiale (tipo,Integer.parseInt(quantità));
+		 try (Materiale dao = new Materiale(ds)) {
+	           // request.setAttribute("firms", dao.getAll());
+			 	dao.create(materiale);
+			 	
+			 	
 		request.getRequestDispatcher("/funzionalità/inserire.jsp").forward(request, response);
 	}
 	
