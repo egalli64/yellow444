@@ -3,7 +3,7 @@ package dao;
 public class Materiale {
 	
 	private String tipo;
-	private int quantità;
+	
 	
 	
 	public String getTipo() {
@@ -16,28 +16,11 @@ public class Materiale {
 	}
 	
 	
-	public int getQuantità() {
-		return quantità;
-	}
-	
-	
-	public void setQuantità(int quantità) {
-		this.quantità = quantità;
-	}
-	
-	
-	public Materiale(String tipo, int quantità) {
-		
-		this.tipo = tipo;
-		this.quantità = quantità;
-	}
 	
 	
 	
-	public Materiale(int quantità) {
-		
-		this.quantità = quantità;
-	}
+	
+	
 	
 	
 	public Materiale(String tipo) {
@@ -48,8 +31,12 @@ public class Materiale {
 
 	@Override
 	public String toString() {
-		return "Materiale [tipo=" + tipo + ", quantità=" + quantità + "]";
+		return "Materiale [tipo=" + tipo + "]";
 	}
+
+
+	
+	
 
 
 	
